@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Parameter for Etsy">
+    <test name="Parameter for Etsy">
+
+        <parameter name="item" value="Iphone 13 case"></parameter>
+
+        <classes>
+
+            <class name="com.test.etsy.tests.EtsyMainTests"></class>
+
+        </classes>
+
+    </test>
+
+</suite>
